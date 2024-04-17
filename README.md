@@ -37,7 +37,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 | Uniformer     | 2023 | TPAMI | 0.1579     | **0.6556** | 0.9167     | 0.8433     | 0.9133     | 0.3070     | 0.8088     | 0.6417     | 0.6137     |
 | videoFocalNet | 2023 | ICCV  | 0.2456     | 0.6444     | 0.9469     | 0.7633     | 0.8933     | 0.3333     | 0.8147     | 0.6508     | 0.6363     |
 | DERNet        | 2023 | IJCNN | 0.4649     | 0.2022     | 0.9510     | 0.9367     | 0.9233     | 0.3070     | 0.8402     | 0.6493     | 0.6887     |
-| VP2Net        | 2024 | -     | **0.5263** | 0.3889     | **0.9531** | **0.9700** | 0.9267     | 0.2632     | **0.8568** | **0.6920** | **0.7252** |
+| $VP^2Net$        | 2024 | -     | **0.5263** | 0.3889     | **0.9531** | **0.9700** | 0.9267     | 0.2632     | **0.8568** | **0.6920** | **0.7252** |
 
 ## 🚀Visualisation of intermediate results
 
@@ -51,11 +51,11 @@ We give the weights obtained by training in the paper. Includes weights from abl
 
 | Model                | pth           | Model                     | pth           |
 | -------------------- | ------------- | ------------------------- | ------------- |
-| VP$^2$Net            | [BaiduYun][2] | VP$^2$Net w/ Add          | [BaiduYun][6] |
-| VP$^2$Net w/ offline | [BaiduYun][3] | VP$^2$Net w/ Add-Multiply | [BaiduYun][7] |
-| VP$^2$Net w/ online  | [BaiduYun][2] | VP$^2$Net w/ DER-Net      | [BaiduYun][8] |
-| VP$^2$Net w/o APE    | [BaiduYun][5] | VP$^2$Net w/ (2D)         | [BaiduYun][9] |
-| VP$^2$Net w/o PEM    | [BaiduYun][5] | VP$^2$Net w/ (3D)         | [BaiduYun][2] |
+| $VP^2Net$            | [BaiduYun][2] | $VP^2Net$ w/ Add          | [BaiduYun][6] |
+| $VP^2Net$ w/ offline | [BaiduYun][3] | $VP^2Net$ w/ Add-Multiply | [BaiduYun][7] |
+| $VP^2Net$ w/ online  | [BaiduYun][2] | $VP^2Net$ w/ DER-Net      | [BaiduYun][8] |
+| $VP^2Net$ w/o APE    | [BaiduYun][5] | $VP^2Net$ w/ (2D)         | [BaiduYun][9] |
+| $VP^2Net$ w/o PEM    | [BaiduYun][5] | $VP^2Net$ w/ (3D)         | [BaiduYun][2] |
 
 [2]: https://pan.baidu.com/s/1YgmhD9Nq8AAkEKrXYsMTDA?pwd=V2PN "V2PNet"
 [3]: https://pan.baidu.com/s/1WdVunAkihHX9DZPGDga38Q?pwd=V2PN "offline"
