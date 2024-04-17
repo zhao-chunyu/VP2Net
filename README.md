@@ -1,4 +1,4 @@
-# $VP^2Net$：A Visual Dual Perception-based Driving Event Recognition Network
+# $VP^2Net$：A Visual Dual Perception Network for Driving Event Recognition
 
 Authors: Chunyu Zhao, Pengcheng Du, Tao deng
 
@@ -12,13 +12,13 @@ Authors: Chunyu Zhao, Pengcheng Du, Tao deng
 
 ## ✨Model
 
-<img src="C:\Users\zcy\Desktop\PDF\PDF\资源 185.jpg" style="zoom:40%;" />
+<img src="pic\model.jpg" style="zoom:40%;" />
 
 ## 💻Dataset
 
 Through the process of re-labeling, we obtain an attention-based driving event dataset (ADED) consisting of 1101 videos. The dataset provides semantic annotation for each driving video, and the semantic information contains annotations of driving event categories and driving event time windows. The driving event categories contain six categories, which are Driving Normally (DN), Avoiding Pedestrian Crossing (ACP) Waiting for Vehicle Ahead (WVA), Waiting for Red Light (SRL), Stop Sign Stopping (SSS) and Avoiding Lane Changing Vehicle (ALC).
 
-<img src="C:\Users\zcy\Desktop\PDF\PDF\dataset.jpg" alt="dataset" style="zoom:20%;" />
+<img src="pic\dataset.jpg" alt="dataset" style="zoom:20%;" />
 
 ## 🚀 Quantitative Analysis
 
@@ -43,7 +43,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 The visualization of the intermediate features. (a) represents the original image, (b) depicts the driving scene feature $F_{SIE}$, (c) shows the attention information $\hat{S}$, (d) displays the perception-enhanced information $\hat{S}^*$, and (e) illustrates the attention-encoded information $F_{APE}$.
 
-<img src="C:\Users\zcy\Desktop\PDF\PDF\feature_show_1.jpg" alt="feature_show_1" style="zoom:20%;" />
+<img src="pic\feature_show.jpg" alt="feature_show_1" style="zoom:20%;" />
 
 ## 📝Model Zoo
 
