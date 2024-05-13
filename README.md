@@ -4,7 +4,7 @@ Authors: {Chunyu Zhao, Tao Deng$^* $, Pengcheng Du, Wenbo Liu, Fei Yan}
 
 [note] $^*$ Corresponding Author.
 
-[★] We will release our complete code after the paper is **accepted**! Please look forward to it.
+[note] We will release our complete code after the paper is **accepted**! Please look forward to it.
 
 ## 📰 News
 
@@ -14,7 +14,7 @@ Authors: {Chunyu Zhao, Tao Deng$^* $, Pengcheng Du, Wenbo Liu, Fei Yan}
 
 **[2024.3.17]** 🎈We propose **$VP^2Net$**, an end-to-end Visual Dual Perception-based Driving Event Recognition framework.
 
-**[2024.5.13]** 🎈We submit articles to **TIV** (IEEE Transactions on Intelligent Vehicles)
+**[2024.5.13]** 🎈We submit articles to **TIV** (IEEE Transactions on Intelligent Vehicles).
 
 ## ✨Model
 
