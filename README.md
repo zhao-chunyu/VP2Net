@@ -4,11 +4,11 @@ Authors: Chunyu Zhao, Pengcheng Du, Tao deng
 
 ## 📰 News
 
-**[2024.3.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].
+**[2024.1.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].
 
 [1]: http://www.google.com	"ADED-Dataset"
 
-**[2024.4.17]** 🎈We propose **$VP^2Net$**, an end-to-end Visual Dual Perception-based Driving Event Recognition framework.
+**[2024.2.17]** 🎈We propose **$VP^2Net$**, an end-to-end Visual Dual Perception-based Driving Event Recognition framework.
 
 ## ✨Model
 
