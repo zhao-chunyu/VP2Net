@@ -1,4 +1,4 @@
-# $VP^2Net$：A Visual Dual Perception Network for Driving Event Recognition
+# $VP^2Net$：Visual Perception-Inspired Network for Exploring the Causes of Drivers' Attention Shift
 
 Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Fei Yan
 
