@@ -1,20 +1,20 @@
 # $VP^2Net$：A Visual Dual Perception Network for Driving Event Recognition
 
-Authors: {Chunyu Zhao, Tao Deng$ ^* $, Pengcheng Du, Wenbo Liu, Fei Yan}
+Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Fei Yan
 
-[note] $^*$ Corresponding Author.
+​	[note] * Corresponding Author.
 
-[note] We will release our complete code after the paper is **accepted**! Please look forward to it.
+​	[note] We will release our complete code after the paper is **accepted** ✔️! Please look forward to it.🕓
 
 ## 📰 News
 
-**[2024.1.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].
+**[2024.1.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].👈
 
 [1]: http://www.google.com	"ADED-Dataset"
 
 **[2024.3.17]** 🎈We propose **$VP^2Net$**, an end-to-end Visual Dual Perception-based Driving Event Recognition framework.
 
-**[2024.5.13]** 🎈We submit articles to **TIV** (IEEE Transactions on Intelligent Vehicles).
+**[2024.5.13]** 🎈We will submit articles to **TIV** (IEEE Transactions on Intelligent Vehicles).😃
 
 ## ✨Model
 
@@ -43,7 +43,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 | Uniformer     | 2023 | TPAMI | 0.1579     | **0.6556** | 0.9167     | 0.8433     | 0.9133     | 0.3070     | 0.8088     | 0.6417     | 0.6137     |
 | videoFocalNet | 2023 | ICCV  | 0.2456     | 0.6444     | 0.9469     | 0.7633     | 0.8933     | 0.3333     | 0.8147     | 0.6508     | 0.6363     |
 | DERNet        | 2023 | IJCNN | 0.4649     | 0.2022     | 0.9510     | 0.9367     | 0.9233     | 0.3070     | 0.8402     | 0.6493     | 0.6887     |
-| VP$^2 $Net    | 2024 | -     | **0.5263** | 0.3889     | **0.9531** | **0.9700** | 0.9267     | 0.2632     | **0.8568** | **0.6920** | **0.7252** |
+| $VP^2Net$     | 2024 | -     | **0.5263** | 0.3889     | **0.9531** | **0.9700** | 0.9267     | 0.2632     | **0.8568** | **0.6920** | **0.7252** |
 
 ## 🚀Visualisation of intermediate results
 
@@ -55,13 +55,13 @@ The visualization of the intermediate features. (a) represents the original imag
 
 We give the weights obtained by training in the paper. Includes weights from ablation experiments. These weights may be able to be used as your pre-training weights, reducing the time required for learning.
 
-| Model                 | pth           | Model                      | pth           |
-| --------------------- | ------------- | -------------------------- | ------------- |
-| VP$^2 $Net            | [BaiduYun][2] | VP$^2 $Net w/ Add          | [BaiduYun][6] |
-| VP$^2 $Net w/ offline | [BaiduYun][3] | VP$^2 $Net w/ Add-Multiply | [BaiduYun][7] |
-| VP$^2 $Net w/ online  | [BaiduYun][2] | VP$^2 $Net w/ DER-Net      | [BaiduYun][8] |
-| VP$^2 $Net w/o APE    | [BaiduYun][5] | VP$^2 $Net w/ (2D)         | [BaiduYun][9] |
-| VP$^2 $Net w/o PEM    | [BaiduYun][5] | VP$^2 $Net w/ (3D)         | [BaiduYun][2] |
+| Model                | pth           | Model                     | pth           |
+| -------------------- | ------------- | ------------------------- | ------------- |
+| $VP^2Net$            | [BaiduYun][2] | $VP^2Net$ w/ Add          | [BaiduYun][6] |
+| $VP^2Net$ w/ offline | [BaiduYun][3] | $VP^2Net$ w/ Add-Multiply | [BaiduYun][7] |
+| $VP^2Net$ w/ online  | [BaiduYun][2] | $VP^2Net$ w/ DER-Net      | [BaiduYun][8] |
+| $VP^2Net$ w/o APE    | [BaiduYun][5] | $VP^2Net$ w/ (2D)         | [BaiduYun][9] |
+| $VP^2Net$ w/o PEM    | [BaiduYun][5] | $VP^2Net$ w/ (3D)         | [BaiduYun][2] |
 
 [2]: https://pan.baidu.com/s/1YgmhD9Nq8AAkEKrXYsMTDA?pwd=V2PN "V2PNet"
 [3]: https://pan.baidu.com/s/1WdVunAkihHX9DZPGDga38Q?pwd=V2PN "offline"
@@ -81,5 +81,5 @@ Thanks to the open-source video action detection models (ViViT, VideoMAE) at [hu
 
 ## Cite
 
-Welcome to our work!
+Welcome to our work ! 
 
