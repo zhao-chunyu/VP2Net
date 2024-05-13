@@ -1,6 +1,6 @@
 # $VP^2Net$：A Visual Dual Perception Network for Driving Event Recognition
 
-Authors: {Chunyu Zhao, Tao Deng$^*$, Pengcheng Du, Wenbo Liu, Fei Yan}
+Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Fei Yan
 
 [note] $^*$ Corresponding Author.
 
