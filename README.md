@@ -12,9 +12,9 @@ Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Fei Yan
 
 [1]: http://www.google.com	"ADED-Dataset"
 
-**[2024.3.17]** 🎈We propose **$VP^2Net$**, an end-to-end Visual Dual Perception-based Driving Event Recognition framework.
+**[2024.3.17]** 🎈We propose $VP^2Net$, which is a visual dual perception-inspired network for exploring the causes of driver’s attention shifts.
 
-**[2024.5.13]** 🎈We will submit articles to **TIV** (IEEE Transactions on Intelligent Vehicles).😃
+**[2024.5.13]** 🎈We submit the article to **TIV** (IEEE Transactions on Intelligent Vehicles).😃
 
 ## ✨Model
 
@@ -79,7 +79,7 @@ Thanks to the open-source video action detection models (ViViT, VideoMAE) at [hu
 
 [10]: https://huggingface.curated.co/	"huggingface"
 
-## Cite
+## 📄Cite
 
 Welcome to our work ! 
 
