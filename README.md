@@ -1,6 +1,6 @@
 # $VP^2Net$：Visual Perception-Inspired Network for Exploring the Causes of Drivers' Attention Shift
 
-Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Fei Yan
+Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Yi Huang, Fei Yan
 
 ​	[note] * Corresponding Author.
 
