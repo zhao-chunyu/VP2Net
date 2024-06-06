@@ -8,13 +8,13 @@ Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Yi Huang, Fei Yan
 
 ## 📰 News
 
-**[2024.1.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].👈
+**[2024.01.15]** 🎈Everyone can download the ADED dataset, the data is stored on BaiduNetdisk, from this [link][1].👈
 
 [1]: http://www.google.com	"ADED-Dataset"
 
-**[2024.3.17]** 🎈We propose $VP^2Net$, which is a visual dual perception-inspired network for exploring the causes of driver’s attention shifts.
+**[2024.03.17]** 🎈We propose $VP^2Net$, which is a visual dual perception-inspired network for exploring the causes of driver’s attention shifts.
 
-**[2024.6.6]** 🎈We will submit the article to ***TCSVT*** (*IEEE **T**ransactions on **C**ircuits and **S**ystems for **V**ideo **T**echnology*).😃
+**[2024.06.06]** 🎈We will submit the article to ***TCSVT*** (*IEEE **T**ransactions on **C**ircuits and **S**ystems for **V**ideo **T**echnology*).😃
 
 ## ✨Model
 
