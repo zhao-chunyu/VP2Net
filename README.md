@@ -14,7 +14,7 @@ Authors: Chunyu Zhao, Tao Deng*, Pengcheng Du, Wenbo Liu, Yi Huang, Fei Yan
 
 **[2024.03.17]** 🎈We propose $VP^2Net$, which is a visual dual perception-inspired network for exploring the causes of driver’s attention shifts.
 
-**[2024.06.06]** 🎈We will submit the article to ***TITS*** (*IEEE **T**ransactions on **I**ntelligent **T**tansportation **S**ystems).😃
+**[2024.06.06]** 🎈We will submit the article to ***TITS*** (IEEE **T**ransactions on **I**ntelligent **T**tansportation **S**ystems).😃
 
 ## ✨Model
 
