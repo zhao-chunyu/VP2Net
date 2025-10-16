@@ -91,11 +91,11 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 <div align="left">
 <b>Fig. 4. The visualization of the intermediate features.</b>  
 (a) represents the original image,  
-(b) depicts the driving scene feature <img src="assets/formulas/F_SIE.svg" alt="F_SIE" width="40"/>,  
-(c) depicts the driving scene feature <img src="assets/formulas/F_uniformer.svg" alt="F_uniformer" width="70"/> by Uniformer,  
-(d) shows the attention information <img src="assets/formulas/S_hat.svg" alt="S_hat" width="14"/>,  
-(e) displays the perception-enhanced information <img src="assets/formulas/S_star.svg" alt="S_star" width="20"/>,  
-and (f) illustrates the attention-encoded information <img src="assets/formulas/F_APE.svg" alt="F_APE" width="40"/>.  
+(b) depicts the driving scene feature <img src="assets/formulas/F_SIE.svg" alt="F_SIE" width="30"/>,  
+(c) depicts the driving scene feature <img src="assets/formulas/F_uniformer.svg" alt="F_uniformer" width="60"/> by Uniformer,  
+(d) shows the attention information <img src="assets/formulas/S_hat.svg" alt="S_hat" width="8"/>,  
+(e) displays the perception-enhanced information <img src="assets/formulas/S_star.svg" alt="S_star" width="14"/>,  
+and (f) illustrates the attention-encoded information <img src="assets/formulas/F_APE.svg" alt="F_APE" width="30"/>.  
 These cases demonstrate the network’s mechanism and enhancement strategy, rather than the average performance across the dataset.
 </div>
 
