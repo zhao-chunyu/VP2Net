@@ -25,23 +25,21 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 </div>
 
 <div align="left">
-**Fig. 1. ADED dataset annotation process**. On the left is the annotation process for the entire ADED dataset. The heatmaps are derived from the BDD-A dataset, captured through eye-tracking devices to represent driver’s attention. On the right is the annotation process for event time windows of driving event.
-
+<b>Fig. 1. ADED dataset annotation process</b>. On the left is the annotation process for the entire ADED dataset. The heatmaps are derived from the BDD-A dataset, captured through eye-tracking devices to represent driver’s attention. On the right is the annotation process for event time windows of driving event.
 </div>
 
 <div align="center">
-
-<img src="assert/dataset_show.jpg" alt="dataset_show" width="400" height="auto"/>
+<img src="assert/dataset_show.jpg" alt="dataset_show" width="450" height="auto"/>
 
 </div>
 
 <div align="left">
-**Fig. 2. ADED dataset statistics**. (a) The number and proportion of each driving event class. (b) The distribution of the duration of driving events. (c) The distribution of the occurrence of driving events along the timeline.
+<b>Fig. 2. ADED dataset statistics</b>. (a) The number and proportion of each driving event class. (b) The distribution of the duration of driving events. (c) The distribution of the occurrence of driving events along the timeline.
 
 </div>
 
 <div align="center">
-**TABLE I:** Comparison of Traffic Scene Datasets in Terms of Weather Conditions, Annotations, and Videos. **TABLE II:** Comparison of DADA-2000, PSAD, And Our Dataset in Terms of Statistical Properties and t-SNE Feature Visualization.
+<b>TABLE I:</b> Comparison of Traffic Scene Datasets in Terms of Weather Conditions, Annotations, and Videos. <b>TABLE II:</b> Comparison of DADA-2000, PSAD, And Our Dataset in Terms of Statistical Properties and t-SNE Feature Visualization.
 
 </div>
 
@@ -62,7 +60,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 
 <div align="left">
-**Fig. 3. Perception-inspired Network (VP²Net).** Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
+<b>Fig. 3. Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
 
 </div>
 
@@ -70,7 +68,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 ## 🚀 Quantitative Analysis
 
 <div align="center">
-**TABLE III:** Quantitative Results of Different Models on the ADED, DADA-2000, PSAD Datasets.
+<b>TABLE III:</b> Quantitative Results of Different Models on the ADED, DADA-2000, PSAD Datasets.
 
 </div>
 
@@ -90,7 +88,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="left">
 
-**Fig. 3. The Proposed Visual Dual Perception-inspired Network (VP²Net).** Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
+<b>Fig. 3. The Proposed Visual Dual Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
 
 </div>
 
