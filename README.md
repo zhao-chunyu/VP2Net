@@ -91,13 +91,14 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 <div align="left">
 <b>Fig. 4. The visualization of the intermediate features.</b>  
 (a) represents the original image,  
-(b) depicts the driving scene feature ![F_SIE](https://latex.codecogs.com/svg.latex?F_{SIE}),  
-(c) depicts the driving scene feature ![F_uniformer](https://latex.codecogs.com/svg.latex?F_{uniformer}) by Uniformer,  
-(d) shows the attention information ![S_hat](https://latex.codecogs.com/svg.latex?\hat{S}),  
-(e) displays the perception-enhanced information ![S_star](https://latex.codecogs.com/svg.latex?\hat{S}^{*}),  
-and (f) illustrates the attention-encoded information ![F_APE](https://latex.codecogs.com/svg.latex?F_{APE}).  
+(b) depicts the driving scene feature ![F_SIE](https://render.githubusercontent.com/render/math?math=F_{SIE}),  
+(c) depicts the driving scene feature ![F_uniformer](https://render.githubusercontent.com/render/math?math=F_{uniformer}) by Uniformer,  
+(d) shows the attention information ![S_hat](https://render.githubusercontent.com/render/math?math=\hat{S}),  
+(e) displays the perception-enhanced information ![S_star](https://render.githubusercontent.com/render/math?math=\hat{S}^{*}),  
+and (f) illustrates the attention-encoded information ![F_APE](https://render.githubusercontent.com/render/math?math=F_{APE}).  
 These cases demonstrate the network’s mechanism and enhancement strategy, rather than the average performance across the dataset.
 </div>
+
 
 
 
