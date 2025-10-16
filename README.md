@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assert/logo.jpg" alt="logo"/>
+<img src="assets/logo.jpg" alt="logo"/>
 
 <b>Authors:<a href="https://scholar.google.com/citations?user=IOeG3ygAAAAJ&hl=zh-CN" target="_blank">Chunyu Zhao</a>, 
 <a href="https://scholar.google.com/citations?user=WQ2hfUYAAAAJ&hl=zh-CN" target="_blank">Tao Deng</a><sup>📧</sup>, 
@@ -22,7 +22,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="center">
 
-<img src="assert/dataset_make.jpg" alt="dataset_make"/>
+<img src="assets/dataset_make.jpg" alt="dataset_make"/>
 
 </div>
 
@@ -31,7 +31,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 </div>
 
 <div align="center">
-<img src="assert/dataset_show.jpg" alt="dataset_show" width="450" height="auto"/>
+<img src="assets/dataset_show.jpg" alt="dataset_show" width="450" height="auto"/>
 
 </div>
 
@@ -47,7 +47,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="center">
 
-<img src="assert/dataset_compare1.jpg" alt="dataset_c"/>
+<img src="assets/dataset_compare1.jpg" alt="dataset_c"/>
 
 </div>
 
@@ -56,7 +56,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="center">
 
-<img src="assert/model.jpg" alt="model"/>
+<img src="assets/model.jpg" alt="model"/>
 
 </div>
 
@@ -76,7 +76,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="center">
 
-<img src="assert/compare.jpg" alt="compare"/>
+<img src="assets/compare.jpg" alt="compare"/>
 
 </div>
 
@@ -84,21 +84,20 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 <div align="center">
 
-<img src="assert/feature.jpg" alt="feature"/>
+<img src="assets/feature.jpg" alt="feature"/>
 
 </div>
 
 <div align="left">
 <b>Fig. 4. The visualization of the intermediate features.</b>  
 (a) represents the original image,  
-(b) depicts the driving scene feature ![F_SIE](https://render.githubusercontent.com/render/math?math=F_{SIE}),  
-(c) depicts the driving scene feature ![F_uniformer](https://render.githubusercontent.com/render/math?math=F_{uniformer}) by Uniformer,  
-(d) shows the attention information ![S_hat](https://render.githubusercontent.com/render/math?math=\hat{S}),  
-(e) displays the perception-enhanced information ![S_star](https://render.githubusercontent.com/render/math?math=\hat{S}^{*}),  
-and (f) illustrates the attention-encoded information ![F_APE](https://render.githubusercontent.com/render/math?math=F_{APE}).  
+(b) depicts the driving scene feature <img src="assets/formulas/F_SIE.svg" alt="F_SIE" width="40"/>,  
+(c) depicts the driving scene feature <img src="assets/formulas/F_uniformer.svg" alt="F_uniformer" width="70"/> by Uniformer,  
+(d) shows the attention information <img src="assets/formulas/S_hat.svg" alt="S_hat" width="14"/>,  
+(e) displays the perception-enhanced information <img src="assets/formulas/S_star.svg" alt="S_star" width="20"/>,  
+and (f) illustrates the attention-encoded information <img src="assets/formulas/F_APE.svg" alt="F_APE" width="40"/>.  
 These cases demonstrate the network’s mechanism and enhancement strategy, rather than the average performance across the dataset.
 </div>
-
 
 
 
