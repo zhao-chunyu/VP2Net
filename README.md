@@ -87,8 +87,7 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 </div>
 
 <div align="left">
-
-<b>Fig. 3. The Proposed Visual Dual Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
+<b>Fig. 4. The Proposed Visual Dual Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
 
 </div>
 
