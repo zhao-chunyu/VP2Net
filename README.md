@@ -9,9 +9,11 @@ Pengcheng Du,
 <a href="https://scholar.google.com/citations?hl=zh-CN&user=q3kc2R8AAAAJ" target="_blank">Yi Huang</a>, 
 Fei Yan
 </b> 
-<br>
-<b>Contact: springyu.zhao@foxmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📧: corresponding author </b>
 
+</div>
+
+<div align="center">
+<b>Contact: springyu.zhao@foxmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📧: corresponding author</b>
 </div>
 
 ## 💻Dataset
