@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="assets/logo.jpg" alt="logo"/>
@@ -14,6 +15,15 @@ Fei Yan
 
 <div align="center">
 <b>Contact: springyu.zhao@foxmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📧: corresponding author</b>
+</div>
+<br>
+
+<div align="center">
+
+[![IEEE ITS](https://img.shields.io/badge/📝Paper-IEEE%20Trans%20on%20ITS-blue)](https://ieeexplore.ieee.org/document/11220900) 
+[![Baidu ADED](https://img.shields.io/badge/Dataset-ADED(Ours)-3f51b5?logo=baidu&logoColor=white)](#) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 </div>
 
 ## 💻Dataset
@@ -60,11 +70,40 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 
 </div>
 
-
 <div align="left">
-<b>Fig. 3. Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — “where to focus”, attention enhancement — “when to focus”, and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
+<b>Fig. 3. Vision Perception-inspired Network (VP²Net).</b> Our model takes driving video sequences as input, where the SIE branch extracts bottom-up driving scene information and the APE branch extracts top-down driver attention information (which undergoes attention perception — "where to focus", attention enhancement — "when to focus", and information encoding). Subsequently, attention information guides the fusion of driving scene features, further decoded to produce the output. F1 is the attention information encoder. F2 is the event information decoder.
+
 
 </div>
+
+
+## 🛠️ Environment Setup
+
+```bash
+# Create conda environment
+conda create -n vp2net python=3.8
+conda activate vp2net
+
+# Install dependencies
+pip install torch==1.12.1 torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install numpy opencv-python pyyaml scipy pandas tqdm einops
+```
+
+
+## 🧪 Training/Testing
+
+```bash
+# Train VP2Net
+bash scripts/train.sh v2pnet aded 0
+
+# Test VP2Net
+bash scripts/test.sh v2pnet aded 0
+```
+
+**Arguments:**
+- `v2pnet` etc. (model name)
+- `aded` / `dada` / `psad` (dataset name)
+- `0` (GPU ID)
 
 
 ## 🚀 Quantitative Analysis
@@ -91,11 +130,11 @@ Through the process of re-labeling, we obtain an attention-based driving event d
 <div align="left">
 <b>Fig. 4. The visualization of the intermediate features.</b>  
 (a) represents the original image,  
-(b) depicts the driving scene feature <img src="assets/formulas/F_SIE.svg" alt="F_SIE" width="30"/>,  
-(c) depicts the driving scene feature <img src="assets/formulas/F_uniformer.svg" alt="F_uniformer" width="60"/> by Uniformer,  
-(d) shows the attention information <img src="assets/formulas/S_hat.svg" alt="S_hat" width="8"/>,  
-(e) displays the perception-enhanced information <img src="assets/formulas/S_star.svg" alt="S_star" width="14"/>,  
-and (f) illustrates the attention-encoded information <img src="assets/formulas/F_APE.svg" alt="F_APE" width="30"/>.  
+(b) depicts the driving scene feature <img src="assets/formulas/F_SIE.svg" alt="F_SIE" height="12"/>,  
+(c) depicts the driving scene feature <img src="assets/formulas/F_uniformer.svg" alt="F_uniformer" height="14"/> by Uniformer,  
+(d) shows the attention information <img src="assets/formulas/S_hat.svg" alt="S_hat" height="15"/>,  
+(e) displays the perception-enhanced information <img src="assets/formulas/S_star.svg" alt="S_star" height="12"/>,  
+and (f) illustrates the attention-encoded information <img src="assets/formulas/F_APE.svg" alt="F_APE" height="12"/>.  
 These cases demonstrate the network’s mechanism and enhancement strategy, rather than the average performance across the dataset.
 </div>
 
@@ -103,7 +142,7 @@ These cases demonstrate the network’s mechanism and enhancement strategy, rath
 
 ## 💖Support the Project
 
-Thanks to the open-source video action detection models (ViViT, VideoMAE) at [huggingface🤗][10]  for supporting this paper.
+Thanks to the open-source video action detection models (ViViT, VideoMAE etc.) at [huggingface🤗][10]  for supporting this paper.
 
 [10]: https://huggingface.curated.co/	"huggingface"
 
@@ -112,11 +151,15 @@ Thanks to the open-source video action detection models (ViViT, VideoMAE) at [hu
 If you find this repository useful, please use the following BibTeX entry for citation  and give us a star⭐.
 
 ```python
-@article{zhao2025vp2net, 
-  title={VP²Net: Visual Perception-Inspired Network for Exploring the Causes of Drivers’ Attention Shift}, 
-  journal={IEEE Transactions on Intelligent Ttansportation Systems}, 
-  author={Zhao, Chunyu and Deng, Tao and Du, Pengcheng and Liu, Wenbo and Huang, Yi and Yan, Fei}, 
-  year={2025}
+@ARTICLE{zhao2025vp2net,
+  author={Zhao, Chunyu and Deng, Tao and Du, Pengcheng and Liu, Wenbo and Huang, Yi and Yan, Fei},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={VP2Net: Visual Perception-Inspired Network for Exploring the Causes of Drivers’ Attention Shift}, 
+  year={2025},
+  volume={26},
+  number={11},
+  pages={20012-20026},
+  doi={10.1109/TITS.2025.3610121}
 }
 ```
 

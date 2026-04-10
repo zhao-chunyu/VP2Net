@@ -1,0 +1,32 @@
+Data:
+  data_root: /data/dataset/ADED
+  train_list: lists/aded/untrimmed_16_training.txt
+  test_list: lists/aded/untrimmed_16_test.txt
+  classes: 6
+
+Train:
+  img_h: 192
+  img_w: 320
+  # Dataset
+  data_type: 'aded' # our dataset --> ['aded', 'dada', 'psad']. If you have new data, you can change it.
+  # Optimizer
+  batch_size: 2 # batch size for training
+  base_lr: 0.00001
+  start_epoch: 0
+  epochs: 100
+  momentum: 0.9
+  weight_decay: 0.0001
+  lr_decay_epoch: 50
+  # Resume
+  resume: # path to latest checkpoint
+  # Else
+  save_path: exp
+  workers: 8
+  manual_seed: 42
+
+Method:
+  model_name: 'v2pnet'
+  loss_sal_beta: 0.5
+
+Test:
+  weight: # load weight for fine-tuning or testing
